@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Appium Automation]">
+  <test name="Running Appium Test(failed)">
+    <groups>
+      <run>
+        <include name="Regression Appium"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.learning.appium.appiumTutorial.DatePicker">
+        <methods>
+          <include name="datemethod"/>
+        </methods>
+      </class> <!-- com.learning.appium.appiumTutorial.DatePicker -->
+      <class name="com.learning.appium.appiumTutorial.picker">
+        <methods>
+          <include name="pickerLaunch"/>
+        </methods>
+      </class> <!-- com.learning.appium.appiumTutorial.picker -->
+    </classes>
+  </test> <!-- Running Appium Test(failed) -->
+</suite> <!-- Failed suite [Appium Automation] -->

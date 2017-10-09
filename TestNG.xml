@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name ="Appium Automation">
+	<test name ="Running Appium Test">
+		<groups>
+			<run>
+			<include name = "Regression Appium"></include>
+			</run>
+		</groups>
+		
+		<classes>
+			<class name ="com.learning.appium.appiumTutorial.picker"></class>
+	
+		</classes>
+	</test>
+
+</suite>
