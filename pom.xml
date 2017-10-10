@@ -44,7 +44,7 @@
         	    <systemPropertyVariables>
             				<PlatformName>${value}</PlatformName>
             				<PlatformVersion>${value}</PlatformVersion> 
-            				<deviceName>${value}</deviceName> 
+            				
           	</systemPropertyVariables>
           	<suiteXmlFiles>
             				<suiteXmlFile>TestNGCI.xml</suiteXmlFile>
