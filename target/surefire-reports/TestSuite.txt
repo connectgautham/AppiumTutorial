@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 44.726 s <<< FAILURE! - in TestSuite
-datepicker(com.learning.appium.appiumTutorial.iPhoneSimulatorCI)  Time elapsed: 44.248 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'Gauthamans-MBP.fios-router.home', ip: 'fe80:0:0:0:491:a1b:e6b8:303d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
-Driver info: io.appium.java_client.ios.IOSDriver
-Capabilities [{app=Users/gauthamanprakasam/Library/Developer/Xcode/DerivedData/UIKitCatalog-acdpwptlisjkkddfujxozpmvjist/Build/Products/Debug-iphonesimulator/UIKitCatalog.app, networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPad Simulator, platform=MAC, platformVersion=11.0, webStorageEnabled=false, locationContextEnabled=false, automationName=XCUITest, browserName=, takesScreenshot=true, javascriptEnabled=true, udid=3B328289-04FF-412C-A30F-66CA544ACAD2, platformName=MAC}]
-Session ID: 2e553a07-e4ea-409e-aca1-a6d134cb55f0
-*** Element info: {Using=name, value=Date Picker}
-	at com.learning.appium.appiumTutorial.iPhoneSimulatorCI.datepicker(iPhoneSimulatorCI.java:41)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.666 s - in TestSuite

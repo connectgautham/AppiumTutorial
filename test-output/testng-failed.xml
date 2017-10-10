@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Appium Automation]">
+  <test name="Running Appium Test(failed)">
+    <groups>
+      <run>
+        <include name="Regression Appium CI"/>
+      </run>
+    </groups>
     <classes>
       <class name="com.learning.appium.appiumTutorial.iPhoneSimulatorCI">
         <methods>
@@ -9,5 +14,5 @@
         </methods>
       </class> <!-- com.learning.appium.appiumTutorial.iPhoneSimulatorCI -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Running Appium Test(failed) -->
+</suite> <!-- Failed suite [Appium Automation] -->
