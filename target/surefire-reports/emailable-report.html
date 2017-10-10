@@ -31,14 +31,55 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Running Appium Test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">34.1 seconds</td><td class="numi">Regression Appium CI </td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Running Appium Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">44.3 seconds</td><td class="numi">Regression Appium CI </td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Running Appium Test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">com.learning.appium.appiumTutorial.iPhoneSimulatorCI</td><td><a href="#m1"><b>datepicker</b> (Regression Appium CI) </a></td><td class="numi">1</td><td>1507519736163</td><td class="numi">34089</td></tr>
+<tr><th colspan="4">Running Appium Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.learning.appium.appiumTutorial.iPhoneSimulatorCI</td><td><a href="#m1"><b>datepicker</b> (Regression Appium CI) </a></td><td class="numi">1</td><td>1507605163816</td><td class="numi">44233</td></tr>
 </table>
 <h1>Running Appium Test</h1>
 <h2 id="m1">com.learning.appium.appiumTutorial.iPhoneSimulatorCI:datepicker</h2>
+<div style="padding-left:3em">
+<p>An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;Gauthamans-MBP.fios-router.home&apos;, ip: &apos;fe80:0:0:0:491:a1b:e6b8:303d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=Users/gauthamanprakasam/Library/Developer/Xcode/DerivedData/UIKitCatalog-acdpwptlisjkkddfujxozpmvjist/Build/Products/Debug-iphonesimulator/UIKitCatalog.app, networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPad Simulator, platform=MAC, platformVersion=11.0, webStorageEnabled=false, locationContextEnabled=false, automationName=XCUITest, browserName=, takesScreenshot=true, javascriptEnabled=true, udid=3B328289-04FF-412C-A30F-66CA544ACAD2, platformName=MAC}]
+Session ID: 2e553a07-e4ea-409e-aca1-a6d134cb55f0
+*** Element info: {Using=name, value=Date Picker}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+<br/>at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+<br/>at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+<br/>at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:434)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:110)
+<br/>at io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1)
+<br/>at io.appium.java_client.ios.IOSDriver.findElementByName(IOSDriver.java:1)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:303)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+<br/>at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+<br/>at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+<br/>at com.learning.appium.appiumTutorial.iPhoneSimulatorCI.datepicker(iPhoneSimulatorCI.java:41)
+<br/>29 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

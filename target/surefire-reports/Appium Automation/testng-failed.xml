@@ -4,20 +4,15 @@
   <test name="Running Appium Test(failed)">
     <groups>
       <run>
-        <include name="Regression Appium"/>
+        <include name="Regression Appium CI"/>
       </run>
     </groups>
     <classes>
-      <class name="com.learning.appium.appiumTutorial.picker">
+      <class name="com.learning.appium.appiumTutorial.iPhoneSimulatorCI">
         <methods>
-          <include name="pickerLaunch"/>
+          <include name="datepicker"/>
         </methods>
-      </class> <!-- com.learning.appium.appiumTutorial.picker -->
-      <class name="com.learning.appium.appiumTutorial.DatePicker">
-        <methods>
-          <include name="datemethod"/>
-        </methods>
-      </class> <!-- com.learning.appium.appiumTutorial.DatePicker -->
+      </class> <!-- com.learning.appium.appiumTutorial.iPhoneSimulatorCI -->
     </classes>
   </test> <!-- Running Appium Test(failed) -->
 </suite> <!-- Failed suite [Appium Automation] -->

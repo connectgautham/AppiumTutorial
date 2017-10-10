@@ -22,7 +22,7 @@ public class iPhoneSimulatorCI {
 			capabilities.setCapability("automationName","XCUITest");
 			capabilities.setCapability("platformName",System.getProperty("PlatformName"));	
 			capabilities.setCapability("platformVersion",System.getProperty("PlatformVersion"));
-			capabilities.setCapability("deviceName","iPhone Simulator");
+			capabilities.setCapability("deviceName",System.getProperty("DeviceName"));
 			capabilities.setCapability("app","Users/gauthamanprakasam/Library/Developer/Xcode/DerivedData/UIKitCatalog-acdpwptlisjkkddfujxozpmvjist/Build/Products/Debug-iphonesimulator/UIKitCatalog.app");
 			//capabilities.setCapability("fullReset","true");
 			//capabilities.setCapability("udid", "6b4e2394fd5c534c240ffe2b488cf76e0ea9bf5d");
